@@ -1,6 +1,6 @@
-package calculator;
+package calculator_Impl;
 
-public class Calculator {
+public class Calculator implements calculator_Int.Calculator{
 
 	public int sum(int param1, int param2) {
 		return param1 + param2;
@@ -26,4 +26,5 @@ public class Calculator {
 
 	}
 
+	
 }
