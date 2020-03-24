@@ -40,5 +40,11 @@ public class CalculatorTest {
 
 	  Assert.assertEquals(calculator.multiply(2, 2), 4);
 	  
+	  
+	  @Test (groups = {"non functional"} )
+	  public void subtractTest() {
+		Assert.assertEquals(calculator.add(3, 3), 0);//MA
+	  
+	  
   }
 }
