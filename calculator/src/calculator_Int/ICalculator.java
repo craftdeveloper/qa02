@@ -1,6 +1,6 @@
 package calculator_Int;
 
-public interface Calculator {
+public interface ICalculator {
 	
 	public int sum(int param1, int param2);
 	public int multiply(int param1, int param2);

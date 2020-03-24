@@ -38,13 +38,8 @@ public class CalculatorTest {
   @Test (dependsOnMethods = {"sumTest", "multiplyTest"})
   public void a_sumMultiply () {
 
-	  Assert.assertEquals(calculator.multiply(2, 2), 4);
+	  Assert.assertEquals(calculator.multiply(2, 2), 4);}
 	  
 	  
-	  @Test (groups = {"non functional"} )
-	  public void subtractTest() {
-		Assert.assertEquals(calculator.add(3, 3), 0);//MA
-	  
-	  
-  }
+	 
 }
