@@ -1,4 +1,4 @@
-package calculator_Impl;
+package calculator_Imp;
 
 public class Calculator implements calculator_Int.ICalculator{
 
