@@ -1,4 +1,4 @@
-package calculator_Test;
+package calculator_Test1;
 
 import org.testng.annotations.Test;
 
@@ -8,9 +8,15 @@ import calculator_Int.ICalculator;
 import org.testng.Assert;
 
 
-public class CalculatorTest56 {
+public class CalculatorTest {
 	
   ICalculator calculator =  new Calculator();
+  
+  @Test (groups = {"functional"} )
+
+  public void multiplyTest1() {
+    
+    Assert.assertEquals(calculator.multiply(4, 4), 16);}
   
 
   @Test (groups = {"functional"} )
@@ -38,8 +44,13 @@ public class CalculatorTest56 {
   @Test (dependsOnMethods = {"sumTest", "multiplyTest"})
   public void a_sumMultiply () {
 
-	  Assert.assertEquals(calculator.multiply(2, 2), 4);}
+	  Assert.assertEquals(calculator.multiply(2, 2), 4);
+
+  }
+
+  
+  
 	  
 	  
-	 
 }
+
