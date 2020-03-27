@@ -1,29 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89" started-at="2020-03-23T21:56:19Z" finished-at="2020-03-23T21:56:19Z">
+  <suite name="Suite" duration-ms="63" started-at="2020-03-27T01:22:07Z" finished-at="2020-03-27T01:22:07Z">
     <groups>
+      <group name="functional">
+        <method signature="CalculatorTest.multiplyTest()[pri:0, instance:calculator_Test.CalculatorTest@1f57539]" name="multiplyTest" class="calculator_Test.CalculatorTest"/>
+        <method signature="CalculatorTest.sumTest()[pri:0, instance:calculator_Test.CalculatorTest@1f57539]" name="sumTest" class="calculator_Test.CalculatorTest"/>
+        <method signature="CalculatorTest23.multiplyTest()[pri:0, instance:calculator_Test.CalculatorTest23@76f2b07d]" name="multiplyTest" class="calculator_Test.CalculatorTest23"/>
+        <method signature="CalculatorTest23.sumTest()[pri:0, instance:calculator_Test.CalculatorTest23@76f2b07d]" name="sumTest" class="calculator_Test.CalculatorTest23"/>
+        <method signature="CalculatorTest55.multiplyTest()[pri:0, instance:calculator_Test.CalculatorTest55@704a52ec]" name="multiplyTest" class="calculator_Test.CalculatorTest55"/>
+        <method signature="CalculatorTest55.sumTest()[pri:0, instance:calculator_Test.CalculatorTest55@704a52ec]" name="sumTest" class="calculator_Test.CalculatorTest55"/>
+      </group> <!-- functional -->
+      <group name="non functional">
+        <method signature="CalculatorTest.divideTest()[pri:0, instance:calculator_Test.CalculatorTest@1f57539]" name="divideTest" class="calculator_Test.CalculatorTest"/>
+        <method signature="CalculatorTest.subtractTest()[pri:0, instance:calculator_Test.CalculatorTest@1f57539]" name="subtractTest" class="calculator_Test.CalculatorTest"/>
+        <method signature="CalculatorTest23.divideTest()[pri:0, instance:calculator_Test.CalculatorTest23@76f2b07d]" name="divideTest" class="calculator_Test.CalculatorTest23"/>
+        <method signature="CalculatorTest23.subtractTest()[pri:0, instance:calculator_Test.CalculatorTest23@76f2b07d]" name="subtractTest" class="calculator_Test.CalculatorTest23"/>
+        <method signature="CalculatorTest55.divideTest()[pri:0, instance:calculator_Test.CalculatorTest55@704a52ec]" name="divideTest" class="calculator_Test.CalculatorTest55"/>
+        <method signature="CalculatorTest55.subtractTest()[pri:0, instance:calculator_Test.CalculatorTest55@704a52ec]" name="subtractTest" class="calculator_Test.CalculatorTest55"/>
+      </group> <!-- non functional -->
     </groups>
-    <test name="Default test" duration-ms="89" started-at="2020-03-23T21:56:19Z" finished-at="2020-03-23T21:56:19Z">
-      <class name="calculator.CalculatorTest">
-        <test-method status="PASS" signature="divideTest()[pri:0, instance:calculator.CalculatorTest@709ba3fb]" name="divideTest" duration-ms="25" started-at="2020-03-23T17:56:19Z" finished-at="2020-03-23T17:56:19Z">
+    <test name="Test" duration-ms="63" started-at="2020-03-27T01:22:07Z" finished-at="2020-03-27T01:22:07Z">
+      <class name="calculator_Imp.CalculatorTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:calculator_Imp.CalculatorTest@e320068]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- divideTest -->
-        <test-method status="PASS" signature="multiplyTest()[pri:0, instance:calculator.CalculatorTest@709ba3fb]" name="multiplyTest" duration-ms="6" started-at="2020-03-23T17:56:19Z" finished-at="2020-03-23T17:56:19Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="multiplyTest()[pri:0, instance:calculator_Imp.CalculatorTest@e320068]" name="multiplyTest" duration-ms="4" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multiplyTest -->
-        <test-method status="PASS" signature="subtractTest()[pri:0, instance:calculator.CalculatorTest@709ba3fb]" name="subtractTest" duration-ms="2" started-at="2020-03-23T17:56:19Z" finished-at="2020-03-23T17:56:19Z">
+      </class> <!-- calculator_Imp.CalculatorTest -->
+      <class name="calculator_Test.CalculatorTest">
+        <test-method status="PASS" signature="divideTest()[pri:0, instance:calculator_Test.CalculatorTest@1f57539]" name="divideTest" duration-ms="1" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method status="PASS" signature="multiplyTest()[pri:0, instance:calculator_Test.CalculatorTest@1f57539]" name="multiplyTest" duration-ms="1" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method status="PASS" signature="subtractTest()[pri:0, instance:calculator_Test.CalculatorTest@1f57539]" name="subtractTest" duration-ms="0" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subtractTest -->
-        <test-method status="PASS" signature="sumTest()[pri:0, instance:calculator.CalculatorTest@709ba3fb]" name="sumTest" duration-ms="4" started-at="2020-03-23T17:56:19Z" finished-at="2020-03-23T17:56:19Z">
+        <test-method status="PASS" signature="sumTest()[pri:0, instance:calculator_Test.CalculatorTest@1f57539]" name="sumTest" duration-ms="1" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumTest -->
-      </class> <!-- calculator.CalculatorTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="a_sumMultiply()[pri:0, instance:calculator_Test.CalculatorTest@1f57539]" name="a_sumMultiply" duration-ms="2" started-at="2020-03-26T18:22:07Z" depends-on-methods="calculator_Test.CalculatorTest.sumTest, calculator_Test.CalculatorTest.multiplyTest" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_sumMultiply -->
+      </class> <!-- calculator_Test.CalculatorTest -->
+      <class name="calculator_Test.CalculatorTest23">
+        <test-method status="PASS" signature="divideTest()[pri:0, instance:calculator_Test.CalculatorTest23@76f2b07d]" name="divideTest" duration-ms="1" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method status="PASS" signature="multiplyTest()[pri:0, instance:calculator_Test.CalculatorTest23@76f2b07d]" name="multiplyTest" duration-ms="1" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method status="PASS" signature="subtractTest()[pri:0, instance:calculator_Test.CalculatorTest23@76f2b07d]" name="subtractTest" duration-ms="1" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="sumTest()[pri:0, instance:calculator_Test.CalculatorTest23@76f2b07d]" name="sumTest" duration-ms="0" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumTest -->
+        <test-method status="PASS" signature="a_sumMultiply()[pri:0, instance:calculator_Test.CalculatorTest23@76f2b07d]" name="a_sumMultiply" duration-ms="1" started-at="2020-03-26T18:22:07Z" depends-on-methods="calculator_Test.CalculatorTest23.sumTest, calculator_Test.CalculatorTest23.multiplyTest" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_sumMultiply -->
+      </class> <!-- calculator_Test.CalculatorTest23 -->
+      <class name="calculator_Test.CalculatorTest55">
+        <test-method status="PASS" signature="divideTest()[pri:0, instance:calculator_Test.CalculatorTest55@704a52ec]" name="divideTest" duration-ms="0" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method status="PASS" signature="multiplyTest()[pri:0, instance:calculator_Test.CalculatorTest55@704a52ec]" name="multiplyTest" duration-ms="1" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method status="PASS" signature="subtractTest()[pri:0, instance:calculator_Test.CalculatorTest55@704a52ec]" name="subtractTest" duration-ms="1" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="sumTest()[pri:0, instance:calculator_Test.CalculatorTest55@704a52ec]" name="sumTest" duration-ms="1" started-at="2020-03-26T18:22:07Z" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumTest -->
+        <test-method status="PASS" signature="a_sumMultiply()[pri:0, instance:calculator_Test.CalculatorTest55@704a52ec]" name="a_sumMultiply" duration-ms="1" started-at="2020-03-26T18:22:07Z" depends-on-methods="calculator_Test.CalculatorTest55.sumTest, calculator_Test.CalculatorTest55.multiplyTest" finished-at="2020-03-26T18:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_sumMultiply -->
+      </class> <!-- calculator_Test.CalculatorTest55 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

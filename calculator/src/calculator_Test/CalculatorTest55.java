@@ -8,7 +8,7 @@ import calculator_Int.ICalculator;
 import org.testng.Assert;
 
 
-public class CalculatorTest {
+public class CalculatorTest55 {
 	
   ICalculator calculator =  new Calculator();
   
