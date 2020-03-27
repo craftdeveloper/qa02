@@ -6,6 +6,7 @@
       <class name="calculator_Imp.CalculatorTest"/>
       <class name="calculator_Test.CalculatorTest"/>
       <class name="calculator_Test.CalculatorTest23"/>
+      <class name="calculator_Test.CalculatorTest56"/>
       <class name="calculator_Test.CalculatorTest55"/>
     </classes>
   </test> <!-- Test -->
