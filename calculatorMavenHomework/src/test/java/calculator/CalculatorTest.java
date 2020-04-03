@@ -72,6 +72,11 @@ public class CalculatorTest {
     public void mack2Test() {
       Calculator calculator = new Calculator();
       assertEquals(calculator.sum(9, 6), 15);
+    }
+      @Test
+      public void mack3Test() {
+        Calculator calculator = new Calculator();
+        assertEquals(calculator.sum(9, 2), 11);
   }
   
 }
