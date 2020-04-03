@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-02T21:54:51 EDT" name="Default suite" finished-at="2020-04-02T21:54:51 EDT" duration-ms="45">
+  <suite name="Default suite" duration-ms="59" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
     <groups>
     </groups>
-    <test started-at="2020-04-02T21:54:51 EDT" name="Default test" finished-at="2020-04-02T21:54:51 EDT" duration-ms="45">
+    <test name="Default test" duration-ms="59" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
       <class name="calculator.CalculatorTest">
-        <test-method signature="anduAlemTest()[pri:0, instance:calculator.CalculatorTest@671a5887]" started-at="2020-04-02T21:54:51 EDT" name="anduAlemTest" finished-at="2020-04-02T21:54:51 EDT" duration-ms="7" status="PASS">
+        <test-method status="PASS" signature="anduAlemTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="anduAlemTest" duration-ms="10" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- anduAlemTest -->
-        <test-method signature="azebTest()[pri:0, instance:calculator.CalculatorTest@671a5887]" started-at="2020-04-02T21:54:51 EDT" name="azebTest" finished-at="2020-04-02T21:54:51 EDT" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="azebTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="azebTest" duration-ms="1" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- azebTest -->
-        <test-method signature="eyerusalemTest()[pri:0, instance:calculator.CalculatorTest@671a5887]" started-at="2020-04-02T21:54:51 EDT" name="eyerusalemTest" finished-at="2020-04-02T21:54:51 EDT" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="eyerusalemTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="eyerusalemTest" duration-ms="2" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eyerusalemTest -->
-        <test-method signature="keyaTest()[pri:0, instance:calculator.CalculatorTest@671a5887]" started-at="2020-04-02T21:54:51 EDT" name="keyaTest" finished-at="2020-04-02T21:54:51 EDT" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="keyaTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="keyaTest" duration-ms="1" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- keyaTest -->
-        <test-method signature="mackTest()[pri:0, instance:calculator.CalculatorTest@671a5887]" started-at="2020-04-02T21:54:51 EDT" name="mackTest" finished-at="2020-04-02T21:54:51 EDT" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="mack2Test()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="mack2Test" duration-ms="1" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mack2Test -->
+        <test-method status="PASS" signature="mackTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="mackTest" duration-ms="0" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mackTest -->
-        <test-method signature="mahaletTest()[pri:0, instance:calculator.CalculatorTest@671a5887]" started-at="2020-04-02T21:54:51 EDT" name="mahaletTest" finished-at="2020-04-02T21:54:51 EDT" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="mahaletTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="mahaletTest" duration-ms="1" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mahaletTest -->
-        <test-method signature="meronTest()[pri:0, instance:calculator.CalculatorTest@671a5887]" started-at="2020-04-02T21:54:51 EDT" name="meronTest" finished-at="2020-04-02T21:54:51 EDT" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="meronTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="meronTest" duration-ms="1" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meronTest -->
-        <test-method signature="sumTest()[pri:0, instance:calculator.CalculatorTest@671a5887]" started-at="2020-04-02T21:54:51 EDT" name="sumTest" finished-at="2020-04-02T21:54:51 EDT" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="sumTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="sumTest" duration-ms="2" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumTest -->
-        <test-method signature="teddyTest()[pri:0, instance:calculator.CalculatorTest@671a5887]" started-at="2020-04-02T21:54:51 EDT" name="teddyTest" finished-at="2020-04-02T21:54:51 EDT" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="teddyTest()[pri:0, instance:calculator.CalculatorTest@6895a785]" name="teddyTest" duration-ms="0" started-at="2020-04-02T20:05:43 PDT" finished-at="2020-04-02T20:05:43 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teddyTest -->
