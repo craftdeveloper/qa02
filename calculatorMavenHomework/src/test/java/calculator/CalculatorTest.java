@@ -78,5 +78,11 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         assertEquals(calculator.sum(9, 2), 11);
   }
+      @Test
+      public void MamaruTest() {
+        Calculator calculator = new Calculator();
+        assertEquals(calculator.sum(12, 8), 20);  
+      
+      }  
   
 }
