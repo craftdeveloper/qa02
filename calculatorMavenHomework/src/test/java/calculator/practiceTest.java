@@ -20,5 +20,10 @@ public class practiceTest {
     Calculator calculator = new Calculator();
     assertEquals(calculator.sum(5, 5), 10);
   }
+  @Test
+  public void AzebTest() {
+    Calculator calculator = new Calculator();
+    assertEquals(calculator.sum(12, 12), 24);  
   
+  }  
 }

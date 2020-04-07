@@ -84,5 +84,10 @@ public class CalculatorTest {
         assertEquals(calculator.sum(12, 8), 20);  
       
       }  
-  
+      @Test
+      public void AzebTest() {
+        Calculator calculator = new Calculator();
+        assertEquals(calculator.sum(10, 8), 18);  
+      
+      }  
 }
