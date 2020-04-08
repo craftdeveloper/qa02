@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-02T03:01:06Z" name="Default suite" finished-at="2020-04-02T03:01:06Z" duration-ms="78">
+    <groups>
+      <group name="functional">
+        <method signature="CalculatorTest.multiplyTest()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" name="multiplyTest" class="calculator_Test3.CalculatorTest"/>
+        <method signature="CalculatorTest.multiplyTest1()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" name="multiplyTest1" class="calculator_Test3.CalculatorTest"/>
+        <method signature="CalculatorTest.sumTest()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" name="sumTest" class="calculator_Test3.CalculatorTest"/>
+      </group> <!-- functional -->
+      <group name="non functional">
+        <method signature="CalculatorTest.divideTest()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" name="divideTest" class="calculator_Test3.CalculatorTest"/>
+        <method signature="CalculatorTest.subtractTest()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" name="subtractTest" class="calculator_Test3.CalculatorTest"/>
+        <method signature="CalculatorTest.multiplicationTest()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" name="multiplicationTest" class="calculator_Test3.CalculatorTest"/>
+      </group> <!-- non functional -->
+    </groups>
+    <test started-at="2020-04-02T03:01:06Z" name="Default test" finished-at="2020-04-02T03:01:06Z" duration-ms="78">
+      <class name="calculator_Test3.CalculatorTest">
+        <test-method signature="divideTest()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" started-at="2020-04-01T23:01:06Z" name="divideTest" finished-at="2020-04-01T23:01:06Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method signature="multiplyTest()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" started-at="2020-04-01T23:01:06Z" name="multiplyTest" finished-at="2020-04-01T23:01:06Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method signature="multiplyTest1()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" started-at="2020-04-01T23:01:06Z" name="multiplyTest1" finished-at="2020-04-01T23:01:06Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest1 -->
+        <test-method signature="subtractTest()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" started-at="2020-04-01T23:01:06Z" name="subtractTest" finished-at="2020-04-01T23:01:06Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method signature="sumTest()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" started-at="2020-04-01T23:01:06Z" name="sumTest" finished-at="2020-04-01T23:01:06Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumTest -->
+        <test-method signature="multiplicationTest()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" started-at="2020-04-01T23:01:06Z" name="multiplicationTest" finished-at="2020-04-01T23:01:06Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationTest -->
+        <test-method signature="a_sumMultiply()[pri:0, instance:calculator_Test3.CalculatorTest@2a54a73f]" started-at="2020-04-01T23:01:06Z" name="a_sumMultiply" finished-at="2020-04-01T23:01:06Z" depends-on-methods="calculator_Test3.CalculatorTest.sumTest, calculator_Test3.CalculatorTest.multiplyTest" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_sumMultiply -->
+      </class> <!-- calculator_Test3.CalculatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
