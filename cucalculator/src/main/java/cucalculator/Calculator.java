@@ -13,7 +13,6 @@ public class Calculator {
 		return param1+param2;
 	}
 	
-	
 	public int multiply() {
 		return param1*param2;
 	}
